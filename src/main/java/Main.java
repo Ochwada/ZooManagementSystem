@@ -1,6 +1,4 @@
-import com.example.zooManagementSystem.Lion;
-import com.example.zooManagementSystem.Parrot;
-import com.example.zooManagementSystem.Zoo;
+import com.example.zooManagementSystem.*;
 
 public class Main {
     public static void main(String[] args) {
