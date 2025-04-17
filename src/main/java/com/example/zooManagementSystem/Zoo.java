@@ -20,7 +20,7 @@ public class Zoo {
     }
 
     /// --------------------Method:  Show all Animals in the List
-    public void showAllAnimal() {
+    public void showAllAnimals() {
         for (Animal animal : animalsList) {
             System.out.println(animal.getName() + ", is a " + animal.getType());
         }
@@ -38,5 +38,6 @@ public class Zoo {
             animal.makeSound();
         }
     }
+
 
 }
