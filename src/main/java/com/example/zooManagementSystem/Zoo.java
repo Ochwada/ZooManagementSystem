@@ -14,13 +14,22 @@ import java.util.List;
 public class Zoo {
     private final List<Animal> animalsList = new ArrayList<>();
 
+    /// --------------------Method:  Add  Animals in the List
     public void addAnimal(Animal animal) {
         animalsList.add(animal);
     }
 
+    /// --------------------Method:  Show all Animals in the List
     public void showAllAnimal() {
         for (Animal animal : animalsList) {
             System.out.println(animal.getName() + "is a " + animal.getType());
         }
     }
+
+    /// --------------------  Method:  Feed Animals
+    public void feedAllAnimals(Animal animal){
+        System.out.println("Feeding " + animal.getName() + " some food ... ");
+    }
+
+
 }

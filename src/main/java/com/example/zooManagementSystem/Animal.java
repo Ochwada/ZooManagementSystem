@@ -27,8 +27,8 @@ public class Animal {
     }
     /// --------------------  Methods (is polymorphic ?)
 
-    public void makeSound(String sound){
-        System.out.println("It`s Sounds like: " + sound );
+    public void makeSound(){
+        System.out.println("It`s Sounds like .... ");
     }
 
 

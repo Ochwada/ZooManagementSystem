@@ -1,6 +1,12 @@
+import com.example.zooManagementSystem.*;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        ;
+
+        Animal elephat1 = new Elephant("Leo", 20);
+        elephat1.makeSound();
+
     }
 }
 
