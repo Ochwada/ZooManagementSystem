@@ -22,7 +22,7 @@ public class Zoo {
     /// --------------------Method:  Show all Animals in the List
     public void showAllAnimal() {
         for (Animal animal : animalsList) {
-            System.out.println(animal.getName() + "is a " + animal.getType());
+            System.out.println(animal.getName() + ", is a " + animal.getType());
         }
     }
 
