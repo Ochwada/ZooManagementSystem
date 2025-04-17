@@ -1,3 +1,5 @@
+package com.example.zooManagementSystem;
+
 public class Parrot extends Animal{
 
     //constructor
