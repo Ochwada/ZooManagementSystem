@@ -23,4 +23,12 @@ public class Zoo {
             System.out.println(animal.getName() + "is a " + animal.getType());
         }
     }
+
+    public void simulateAnimalSounds() {
+        System.out.println("\nAnimal Sounds:");
+        for (Animal animal : animalsList) {
+            animal.makeSound();
+        }
+    }
+
 }
