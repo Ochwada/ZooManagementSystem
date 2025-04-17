@@ -26,14 +26,12 @@ public class Zoo {
         }
     }
 
-<<<<<<< HEAD
     /// --------------------  Method:  Feed Animals
     public void feedAllAnimals(Animal animal){
         System.out.println("Feeding " + animal.getName() + " some food ... ");
     }
 
 
-=======
     public void simulateAnimalSounds() {
         System.out.println("\nAnimal Sounds:");
         for (Animal animal : animalsList) {
@@ -41,5 +39,4 @@ public class Zoo {
         }
     }
 
->>>>>>> d9d0a4a6d079b546aa439b9536f696a88eabaf5c
 }
